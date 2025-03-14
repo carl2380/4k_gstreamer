@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     if (gst_element_link_many(source, convert, sink, NULL) != TRUE) {
         g_printerr("Elements could not be linked.\n");
         gst_object_unref(pipeline);
-        return -1;
+        return -1;  
     }
 
     // Start playing
