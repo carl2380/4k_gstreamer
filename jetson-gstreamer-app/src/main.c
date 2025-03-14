@@ -9,12 +9,18 @@ int main(int argc, char *argv[]) {
     // Create the pipeline
     GstElement *source = gst_element_factory_make("v4l2src", "video-source");
     GstElement *convert = gst_element_factory_make("videoconvert", "video-convert");
-    GstElement *sink = gst_element_factory_make("autovideosink", "video-sink");
+    GstElement *sink = gst_element_factory_make("glimagesink", "video-sink");
 
+    /* 检查元素是否创建成功 */
+    if (!source || !convert || !sink) {
+        g_printerr("无法创建 GStreamer 元素\n");
+        return -1;
+    }
+
+    /* 创建 GStreamer 管道 */
     GstElement *pipeline = gst_pipeline_new("video-pipeline");
-
-    if (!source || !convert || !sink || !pipeline) {
-        g_printerr("Not all elements could be created.\n");
+    if (!pipeline) {
+        g_printerr("无法创建 GStreamer 管道\n");
         return -1;
     }
 
