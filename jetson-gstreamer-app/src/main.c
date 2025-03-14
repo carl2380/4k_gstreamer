@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     // Initialize GStreamer
-    gst_init(&argc, &argv);
+    gst_init(&argc, &argv); 
 
     // Create the pipeline
     GstElement *source = gst_element_factory_make("v4l2src", "video-source");
