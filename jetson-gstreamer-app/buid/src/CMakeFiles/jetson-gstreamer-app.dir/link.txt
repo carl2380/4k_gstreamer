@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/jetson-gstreamer-app.dir/main.cpp.o  -o jetson-gstreamer-app  -lgstvideo-1.0 -lgstbase-1.0 -lgstreamer-1.0 -lgobject-2.0 -lglib-2.0 

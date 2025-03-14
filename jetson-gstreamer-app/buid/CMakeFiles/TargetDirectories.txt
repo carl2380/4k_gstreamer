@@ -1,0 +1,5 @@
+/home/carl2380/gstreamer/code/gstreamer/4k_gstreamer/jetson-gstreamer-app/buid/CMakeFiles/rebuild_cache.dir
+/home/carl2380/gstreamer/code/gstreamer/4k_gstreamer/jetson-gstreamer-app/buid/CMakeFiles/edit_cache.dir
+/home/carl2380/gstreamer/code/gstreamer/4k_gstreamer/jetson-gstreamer-app/buid/src/CMakeFiles/rebuild_cache.dir
+/home/carl2380/gstreamer/code/gstreamer/4k_gstreamer/jetson-gstreamer-app/buid/src/CMakeFiles/edit_cache.dir
+/home/carl2380/gstreamer/code/gstreamer/4k_gstreamer/jetson-gstreamer-app/buid/src/CMakeFiles/jetson-gstreamer-app.dir
